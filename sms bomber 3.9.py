@@ -1,15 +1,14 @@
-# SC EDIT BY META (ZIHAD)
-# FUCK BY SAMIR
+# This Script edited by Fahad Rayhan
+# For sector 3.9 projects
+
 import os, sys, time, requests, random, string
 import random
 import marshal, base64, zlib
-
 
 def Axak(xak):
     for x in xak:
         sys.stdout.write(x)
         sys.stdout.flush()
-
 
 linex = (' \033[1;93m**************************************************')
 letters = string.ascii_lowercase
@@ -71,7 +70,6 @@ def xak2(xak):
         sys.stdout.write(x)
         sys.stdout.flush()
         time.sleep(0.07)
-
 
 print(w + "\033[1;36m[π] BD SMS booming ")
 
